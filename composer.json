@@ -1,0 +1,21 @@
+{
+    "name": "webfront/data-structure-definition",
+    "description": "Provides data structure definition interfaces",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastian Tarach",
+            "email": "sebastian.tarach@webfront.io"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webfront\\DSD\\": "src/"
+        }
+    }
+}
